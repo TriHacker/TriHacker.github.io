@@ -79,7 +79,7 @@ background-repeat: no-repeat;*/
     border: 1px solid black;
     float: left;
     margin-left: 50px;
-    background-image: url(../TriHacker.github.io/Images/yoga.jpg);
+    background-image: url(/TriHacker.github.io/Images/yoga.jpg);
 }
 #box2{
     width: 185px;
