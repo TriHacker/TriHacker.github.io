@@ -1,0 +1,706 @@
+body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.container{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    background: yellowgreen;
+}
+
+.header {
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.header .home-image img{
+    float: left;
+    width: 85px;
+    height: 85px;
+    margin-left: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+
+}
+.header .home-image a{
+    position: relative;
+    font-size: 38px;
+    font-family:"Algerian";
+    font-weight: bold;
+    color: Blue;
+}
+.header b{
+    color: red;
+    font-family: "Arial";
+}
+.menu {
+    background: #FF5722;
+    width: 100%;
+    height: 22px;
+    margin: 30px 20px 20px 0;
+    padding: 10px 0px 10px 0px;
+}
+
+.menu a {
+    
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Arial";
+    color:beige;
+    margin-left: 15px;
+    
+}
+.menu a:hover {
+    color:aqua;
+    text-decoration: underline;
+}
+
+.main{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#Large-box{
+    
+width: 1300px;
+height: 203px;
+/*border: 1px solid black;*/
+padding: 20px 10px 0 10px;
+
+/*background-image: url(../images/eating_cake.jpg);
+background-size: 100%;
+background-repeat: no-repeat;*/
+}
+#box1{
+    width: 185px;
+    height: 185px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 50px;
+    background-image: url(../images/yoga.jpg);
+}
+#box2{
+    width: 185px;
+    height: 185px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 70px;
+    background-image: url(../images/tennis.jpg);
+}
+#box3{
+    width: 185px;
+    height: 185px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 70px;
+    background-image: url(../images/cricket.jpg);
+}
+#box4{
+    width: 185px;
+    height: 185px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 70px;
+    background-image: url(../images/football.jpg);
+}
+#box5{
+    width: 185px;
+    height: 185px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 30px;
+    background-image: url(../images/golf.jpg);
+}
+#box1 h2{
+    text-align: center;
+}
+#box2 h2{
+    text-align: center;
+}
+#box3 h2{
+    text-align: center;
+}
+#box4 h2{
+    text-align: center;
+}
+#box5 h2{
+    text-align: center;
+}
+#box1:hover {
+    
+    background-color: #cccccc;
+    border: 2px solid red;
+    color: brown;
+}
+#box2:hover {
+    
+    background-color: #cccccc;
+    border: 2px solid red;
+    color: brown;
+}
+#box3:hover {
+    
+    background-color: #cccccc;
+    border: 2px solid red;
+    color: brown;
+}
+#box4:hover {
+    
+    background-color: #cccccc;
+    border: 2px solid red;
+    color: brown;
+}
+#box5:hover {
+    
+    background-color: #cccccc;
+    border: 2px solid red;
+    color: brown;
+}
+
+/******* NEXT BOX*******/
+
+#Large-box2{
+    
+width: 1300px;
+height: 203px;
+/*border: 1px solid black;*/
+padding: 20px 10px 0 10px;
+
+/*background-image: url(../images/eating_cake.jpg);
+background-size: 100%;
+background-repeat: no-repeat;*/
+}
+#box6{
+    width: 185px;
+    height: 185px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 50px;
+    background-image: url(../images/volleyball.jpg);
+}
+#box7{
+    width: 185px;
+    height: 185px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 70px;
+    background-image: url(../images/Swimming.jpg);
+}
+#box8{
+    width: 185px;
+    height: 185px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 70px;
+    background-image: url(../images/hockey.jpg);
+    background-repeat: no-repeat;
+}
+#box9{
+    width: 185px;
+    height: 185px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 70px;
+    background-image: url(../images/table.jpg);
+}
+#box10{
+    width: 185px;
+    height: 185px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 30px;
+    background-image: url(../images/school.jpg);
+}
+#box6 h2{
+    text-align: center;
+}
+#box7 h2{
+    text-align: center;
+}
+#box8 h2{
+    text-align: center;
+}
+#box9 h2{
+    text-align: center;
+}
+#box10 h2{
+    text-align: center;
+}
+#box6:hover {
+    
+    background-color: #cccccc;
+    border: 2px solid red;
+    color: brown;
+}
+#box7:hover {
+    
+    background-color: #cccccc;
+    border: 2px solid red;
+    color: brown;
+}
+#box8:hover {
+    
+    background-color: yellowgreen;
+    border: 2px solid red;
+    color: brown;
+}
+#box9:hover {
+    
+    background-color: #cccccc;
+    border: 2px solid red;
+    color: brown;
+}
+#box10:hover {
+    
+    background-color: #cccccc;
+    border: 2px solid red;
+    color: brown;
+}
+footer {
+    padding:6px 40px 6px 10px;
+    background-color: #d6d6d6;
+    font-size: 11px;
+    font-family: "Lucida Sans Unicode";
+    text-decoration: right;
+}
+footer a{
+    float: right;
+    padding:1px 5px 3px 10px;
+    background-color: #d6d6d6;
+    font-size: 11px;
+    font-family: "Lucida Sans Unicode";
+    text-decoration: right;
+}
+
+/************* about - page styles ***********/
+
+#about-page footer {
+    margin-top: 137px;
+    padding:6px 40px 6px 10px;
+    background-color: #d6d6d6;
+    font-size: 11px;
+    font-family: "Lucida Sans Unicode";
+    text-decoration: right;
+}
+
+#about-page .header {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family:"Algerian";
+    font-weight: 16px;
+    color: Blue;
+}
+#about-page .main {
+    width: 80%;
+    border: 2px solid black;
+    padding: 15px 5px 5px 5px;
+    margin: 10px 0 20px 160px;
+    color: maroon;
+    font-size: 20px;
+    font-weight: normal;
+    box-shadow: 0 5px 10px 7px;
+}
+
+#about-page .main p{
+
+    color: brown;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#about-page h1{
+    margin: 0px;
+    color: black;
+    font-size: 24px;
+    font-family: "Arial";
+    font-weight: normal;
+}
+
+/************** contact page styles ***********/
+
+#contact-page .header {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family:"Algerian";
+    font-weight: 16px;
+    color: Blue;
+}
+#contact-page .main{
+    width: 100%;
+    height: 480px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#contact-page .main h3{
+    text-align: center;
+    color: maroon;
+    font-size: 21px;
+}
+#contact-page #form{
+    padding-top: 1px;
+    margin-left: 450px;
+    width: 450px;
+    height: 390px;
+    /*border: 2px solid black;*/
+    box-shadow: 0 5px 10px 7px;
+    color: maroon;
+    text-align: center;
+}
+#contact-page #form h4{
+    text-align: center;
+    color: maroon;
+    margin-top: 35px;
+}
+#contact-page #form input {
+    width: 95%;
+    border-radius: 5px;
+    height: 17px;
+    background-color: lightgray;
+}
+
+#contact-page #form #message {
+    width: 95%;
+    border-radius: 5px;  
+    background-color: lightgray;
+}
+
+#contact-page #form #submit{
+    height: 23px;
+    
+}
+
+/************* Membership page styles *********/ 
+
+#membership-page .container{
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    background: yellowgreen;
+}
+#membership-page .header {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family:"Algerian";
+    font-weight: 16px;
+    color: Blue;
+}
+
+#membership-page .main{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#membership-page h1{
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+    font-size: 24px;
+}
+
+#membership-page #Large-box1{
+    
+width: 1300px;
+height: 190px;
+/*border: 1px solid black;*/
+padding: 20px 10px 0 10px;
+}
+
+#membership-page #b1{
+    width: 560px;
+    height: 170px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: 0 5px 10px 7px;
+    color: maroon;
+}
+#membership-page #b2{
+    width: 560px;
+    height: 170px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: 0 5px 10px 7px;
+    color: maroon;
+}
+
+#membership-page #b1 h2{
+    text-align: center;
+}
+#membership-page #b2 h2{
+    text-align: center;
+}
+#membership-page #b1 p{
+    color: black;
+    text-align: justify;
+}
+#membership-page #b2 p{
+    color: black;
+    text-align: justify;
+}
+/**************box 2 ****************/
+
+#membership-page #L2{
+    
+width: 1300px;
+height: 270px;
+/*border: 1px solid black;*/
+padding: 20px 10px 0 10px;
+}
+
+#membership-page #b3{
+    width: 560px;
+    height: 250px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 5px 10px 7px;
+    color: maroon;
+}
+#membership-page #b4{
+    width: 560px;
+    height: 250px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 5px 10px 7px;
+    color: maroon;
+}
+
+#membership-page #b3 h2{
+    text-align: center;
+    
+}
+#membership-page #b4 h2{
+    text-align: center;
+}
+#membership-page #b3 p{
+    color: black;
+    text-align: justify;
+}
+#membership-page #b4 p{
+    color: black;
+    text-align: justify;
+}
+
+#membership-page .main a{
+    margin-left: 550px;
+    font-size: 20px;
+}
+
+/************* yoga **************/
+
+#yoga-page .header {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family:"Algerian";
+    font-weight: 16px;
+    color: Blue;
+}
+#yoga-page .main{
+    width: 100%;
+    height: 295px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 35px;
+    color: maroon;
+}
+
+/***********tennis *************/
+#tennis-page .header {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family:"Algerian";
+    font-weight: 16px;
+    color: Blue;
+}
+
+#tennis-page .main{
+    width: 100%;
+    height: 295px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 35px;
+    color: maroon;
+}
+
+/******************cricket***************/
+#cricket-page .header {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family:"Algerian";
+    font-weight: 16px;
+    color: Blue;
+}
+#cricket-page .main{
+    width: 100%;
+    height: 295px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 35px;
+    color: maroon;
+}
+
+/******************football*******************/
+#football-page .header {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family:"Algerian";
+    font-weight: 16px;
+    color: Blue;
+}
+#football-page .main{
+    width: 100%;
+    height: 295px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 35px;
+    color: maroon;
+}
+
+/***************golf*******************/
+#golf-page .header {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family:"Algerian";
+    font-weight: 16px;
+    color: Blue;
+}
+#golf-page .main{
+    width: 100%;
+    height: 295px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 35px;
+    color: maroon;
+}
+
+/*************volley**************/
+#volley-page .header {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family:"Algerian";
+    font-weight: 16px;
+    color: Blue;
+}
+#volley-page .main{
+    width: 100%;
+    height: 295px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 35px;
+    color: maroon;
+}
+/***********************swim **************/
+#swim-page .header {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family:"Algerian";
+    font-weight: 16px;
+    color: Blue;
+}
+#swim-page .main{
+    width: 100%;
+    height: 295px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 35px;
+    color: maroon;
+}
+
+/**************hockey*****************/
+#hockey-page .header {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family:"Algerian";
+    font-weight: 16px;
+    color: Blue;
+}
+
+#hockey-page .main{
+    width: 100%;
+    height: 295px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 35px;
+    color: maroon;
+}
+/************** tt *****************/
+#tt-page .header {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family:"Algerian";
+    font-weight: 16px;
+    color: Blue;
+}
+
+#tt-page .main{
+    width: 100%;
+    height: 295px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 35px;
+    color: maroon;
+}
+/************* school************/
+
+#school-page .header {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family:"Algerian";
+    font-weight: 16px;
+    color: Blue;
+}
+
+#school-page .main{
+    width: 100%;
+    height: 295px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 35px;
+    color: maroon;
+}
